@@ -5,7 +5,7 @@ import "fmt"
 // middlename := "john" // cant use gofer notation globally, only at function level
 var middleName = "Cane"
 
-func basics() {
+func dataTypes() {
 	fmt.Println("Hello World to data types")
 
 	var age int
