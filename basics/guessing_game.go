@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func guessingGame() {
 	fmt.Println("Hello from guessing game")
 
 	source := rand.NewSource(time.Now().UnixNano())
