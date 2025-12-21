@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func switchStatements() {
 
 	fmt.Println("Hello from Switch Statement")
 
