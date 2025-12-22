@@ -4,11 +4,11 @@ import "fmt"
 
 func panic_learning() {
 	fmt.Println("Hello from Panic learning in GO")
-	process(10)
-	process(-5)
+	process_panic(10)
+	process_panic(-5)
 }
 
-func process(input int) {
+func process_panic(input int) {
 	defer fmt.Println("Deffered statement 1") //these will be executed before the panic unwinds the stack
 	defer fmt.Println("Deffered statement 2")
 
