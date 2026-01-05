@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import (
 	"errors"
@@ -19,7 +19,7 @@ func process(data []byte) error {
 	return nil
 }
 
-func main() {
+func errors_learning() {
 	result, err := sqrt(-16)
 	if err != nil {
 		fmt.Println("Error:", err)
